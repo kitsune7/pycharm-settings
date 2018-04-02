@@ -1,0 +1,8 @@
+<templateSet group="Python">
+  <template name="for" value="for i in range(len($LIST$)):&#10;    pass" description="standard for loop" toReformat="false" toShortenFQNames="true">
+    <variable name="LIST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
