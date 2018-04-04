@@ -1,0 +1,10 @@
+<templateSet group="Custom Python">
+  <template name="testfile" value="import pytest&#10;from $PATH$ import *&#10;&#10;&#10;class Test$NAME$:&#10;&#9;$name$ = $NAME$()&#10;&#10;&#9;def test_$name$(self):&#10;&#9;&#9;pass&#10;" description="new test file" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
